@@ -7,10 +7,12 @@ include(
         'app:consumer',
 
         'client',
-        'client:in',
-        'client:out',
+        'client:internal',
+        'client:external',
+        'client:external:mathrank-school',
 
         'domain',
+        'domain:mathrank-problem',
 
         'common',
         'common:mathrank-dataserializer',
